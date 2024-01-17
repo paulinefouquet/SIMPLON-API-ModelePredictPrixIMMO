@@ -1,5 +1,12 @@
 # Simplon- API Modèle de prédiction de prix immobilier en Idf
 
+##TODO
+Implementer le lien latitude/longitude et code postal via des données externes, puis tester
+Reentrainer le modele pour améliorer le score : score actuel du modele exposé:
+Model is : RandomForestRegressor(max_depth=50, min_samples_leaf=20, n_estimators=500)
+Score model on train is :2556.992814137017
+Score model on test is :3451.922135492969
+
 ## Brief projet dans le cadre de developement d'app immo
 
 Création d'une API REST pour exposer les données d'un modèle de prédiction de prix m2 moyen
